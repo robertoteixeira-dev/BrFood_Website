@@ -19,6 +19,26 @@
     transition: all .2s linear;
 }
 
+body h1{
+    animation-name: Move-more;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes Move-more{
+    0%{
+        transform: translateY(0%);
+    }
+    
+    50%{
+        transform: translateY(.5rem);
+    }
+    
+    100%{
+        transform: translateY(0%);
+    }
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -514,7 +534,8 @@ header .icons #menu-bars{
     display: block;
     padding:.5rem 0;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:var(--green);
+    font-weight: bold;
 }
 
 .order form .inputBox .input input,
@@ -569,6 +590,10 @@ header .icons #menu-bars{
 .footer .box-container .box a:hover{
     color:var(--green);
     text-decoration: underline;
+}
+
+.footer .box-container .box img{
+    margin-right:1rem;
 }
 
 .credit{
