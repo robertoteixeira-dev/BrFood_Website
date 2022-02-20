@@ -18,7 +18,7 @@
   <img src="./images/BrFood-Responsive.gif" alt="demo-web-phone" height="425">
 </div>
 
-## ✔️ Come to try out the webpage
+## ✔️ Come to try out the website
 
 <p align="center">
   <a href="https://hardcore-goldstine-dc5850.netlify.app/" target="_blank">
